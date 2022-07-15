@@ -1,4 +1,4 @@
-package config;
+package com.atguigu.config;
 
 public class Config {
 
@@ -8,8 +8,7 @@ public class Config {
     public static final String MYSQL_CDC1_PASSWORD = "mysql.cdc1.password";
     public static final String MYSQL_CDC1_DATABASE = "mysql.cdc1.database";
 
-    public static final String MYSQL_SINK1_URL = "mysql.sink1.url";
-    public static final String MYSQL_SINK1_USERNAME = "mysql.sink1.username";
-    public static final String MYSQL_SINK1_PASSWORD = "mysql.sink1.password";
+    public static final String KAFKA_SINK1_HOSTNAME = "kafka.sink1.url";
+    public static final String KAFKA_SINK1_PORT = "kafka.sink1.port";
 
 }
